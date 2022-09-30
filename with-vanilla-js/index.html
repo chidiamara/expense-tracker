@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Bubblegum+Sans|DM+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css">
+
+    <title>Budgeted Expense Tracker</title>
+  </head>
+  <body>
+    <div class="container">
+    <header>
+        <h1 class="header center">Budgeted Expense Tracker</h1>
+    </header>
+    <section class="main-content">
+        <div class="row-set">
+            <div class="column">
+            <div class="content first">
+                <h2 class="center">Add your Expenses here...</h2>
+                <form id="add-expense" action="#">
+                    <div class="form-arrange">
+                        <label for="expense">Description:</label>
+                        <input type="text" class="input" id="expense" placeholder="Transportation Cost">
+                    </div>
+                    <div class="form-arrange">
+                        <label for="amount">Amount:</label>
+                        <input type="text" class="input" id="amount" placeholder="400">
+                    </div>
+
+                    <button id="addBtn" type="submit" class="btn-styled">Add</button>
+                </form>
+
+            </div> <!--.content-->
+            </div> <!--.column-->
+
+            <div class="column">
+                <div class="content second">
+                    <h2 class="center h2-sec">Added Expenses</h2>
+                    <div class="list-budget">
+                        <div id="expenses">
+                            <ul class="list-group"></ul>
+                        </div>
+                        <div id="budget" class="budget">
+                            <div class="num-display total">
+                                <p>Budget: &#8358;<span id="total"></span> </p>
+                            </div>
+                            <div class="num-display bal">
+                                <p>Balance: &#8358;<span id="balance"></span></p>
+                            </div>
+                    </div><!-- .list-budget  -->
+                    </div> <!--.budget-->
+                </div> <!--.content-->
+            </div><!--.column-->
+        </div> <!--.row-set-->
+    </section>
+    </div>
+    <script src="js/app.js"></script>
+  </body>
+</html>

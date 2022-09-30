@@ -1,0 +1,319 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    background: -webkit-linear-gradient(to right, #e1cd5e, #e1b412);
+    background: linear-gradient(to right,  #e1cd5e, #e1b412);
+    font-family: 'DM Sans', 'Helvetica Neue', sans-serif;
+    background: #e1b412;  /* fallback for old browsers */
+}
+
+div.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+header{
+    margin: 50px 0 10px 0;
+}
+
+.center{
+    text-align: center;
+    margin: 0 auto;
+}
+h1.header{
+    font-family: "Bubblegum Sans", sans-serif;
+    font-size: min(3em);
+    font-weight:700;
+    color: #fff;
+    padding: 20px 0;
+    border-top: 10px solid #ffffffb5;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.content {
+    padding:10px;
+    margin: 0 auto;
+}
+.main-content{
+    background-color: #ffffff3c;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 20px #00000084;
+    margin-bottom: 30px;
+}
+.budget p{
+    margin-bottom: 0;
+    font-weight: bold;
+}
+.budget p span {
+    font-weight: normal;
+}
+#expenses {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-family: 'Bubblegum Sans', sans-serif;
+    font-weight: 100;
+    color: teal;
+    font-size: minmax(3em, 10em);
+    margin-bottom:30px;
+    border-bottom: 3px dotted #e1b412;
+    padding-bottom: 5px;
+}
+
+h2.h2-sec{
+
+}
+
+
+li.li-style{  /* note: Added Expenses List Styling */
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: ; */
+    justify-content: end;
+    align-items: center;
+    padding: 0 5px 8px;
+    margin: 10px auto 0;
+    border-bottom:  2px #fff solid;
+    font-weight: 700;
+}
+
+span.name{  /*note: Description Added Expenses*/
+    width: fit-content;
+    height: fit-content;
+    /* margin: 0 auto; */
+    background-color: #00808099;
+    color: white;
+    padding: 5px 8px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-right: 2px solid #fff;
+    font-size: minmax(1em, 10em);
+}
+span.bdge{  /*note: Amount Added Expenses*/
+    width: fit-content;
+    height: fit-content;
+    margin-left: .2em;
+    background-color: #802000ad;
+    color: white;
+    padding: 5px 10px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-left: 2px solid #fff;
+    font-size: minmax(1em, 10em);
+}
+
+div.row-set{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+div.column{
+    display: flex;
+    flex: 50%;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+div.form-arrange{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+}
+
+
+div>label{
+    display: block;
+    font-weight: 600;
+    padding: 5px 2px;
+    font-size: minmax(1em, 5em);
+}
+
+div>.input{
+    border: 1px solid white;
+    padding: .6em 0 .6em .8em;
+    display: block;
+    font-size: min(1em);
+    background-color: inherit;
+    outline-color: #ffffff;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+div.second{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+div.num-display{
+    width: fit-content;
+    height: fit-content;
+    background-color: #06b80665;
+    padding: 8px;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 5px;
+    margin: 1em auto;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+div.num-danger{
+    width: fit-content;
+    height: fit-content;
+    background-color: #b82a0665;
+    color: #991818;
+    padding: 8px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+div.num-warning{
+    width: fit-content;
+    height: fit-content;
+    background-color: #ece21565;
+    padding: 8px;
+    border: 2px solid #fff;
+    color: #ff0000;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.danger-alert{
+    width: fit-content;
+    height: fit-content;
+    margin: .5em auto;
+    background-color: #b82a0665;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.success-alert{
+    width: fit-content;
+    height: fit-content;
+    margin: .5em auto;
+    background-color: #06b80665;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.btn-styled{
+    font-size: medium;
+    width: 85%;
+    background-color: teal;
+    color: #fff;
+    display: flex;
+    text-align: center;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 10px 5px;
+    border-color: teal;
+    outline-color: inherit;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.btn-styled:hover{
+    border: 2px solid teal;
+    background-color: initial;
+    color: teal;
+    outline-color: teal;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+
+@media screen and (min-width: 568px) {
+    div.row-set{
+        flex-direction: row;
+    }
+
+    div.second{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    div.list-budget{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        padding: 10px;
+        position: relative;
+        top: 10px;
+    }
+
+    div.budget{
+        position: relative;
+        /* top: 0; */
+        right: -5px;
+    }
+
+    ul.list-group{
+        position: relative;
+        right: 30px;
+        top: 10px;
+    }
+    .btn-styled{
+        width: 60%;
+    }
+
+}
