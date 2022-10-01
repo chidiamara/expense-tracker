@@ -22,7 +22,7 @@ Thus far, it has helped me improve in object-oriented programming as well as DOM
    src = "./with-vanilla-js/img/mobile-screen-view-expense-tracker.png"
    alt="mobile-view-expense-tracker"
    title="Mobile View"
-   style="display: flex; max-width: 40%; margin: 0 auto; border-radius: 10px">
+   style="display: flex; justify-content: center; align-items: center max-width: 40%; margin: 0 auto; border-radius: 10px">
 
    > **When the input field pops up, type amount minimum of 1000 and click ok or enter key**
 
