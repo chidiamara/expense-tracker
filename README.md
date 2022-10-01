@@ -5,7 +5,7 @@ This is a responsive weekly expense tracker built with HTML, CSS and JavaScript.
 Thus far, it has helped me improve in object-oriented programming as well as DOM manipulation in JavaScript.
 
 <img
-   src = "./img/desktop-view-expense-tracker.png"
+   src = "./with-vanilla-js/img/desktop-view-expense-tracker.png"
    alt="desktop-view-expense-tracker"
    title="Desktop View"
    style="display: flex; max-width: 70%; margin: 0 auto; border-radius: 10px">
@@ -13,21 +13,21 @@ Thus far, it has helped me improve in object-oriented programming as well as DOM
 <!-- ![Desktop-view-expense-tracker](./img/desktop-view-expense-tracker.png) {width="70%" style="display: inline-block; margin: 0 auto 0 15%" } -->
 
 <img
-   src = "./img/tablet-view-expense-tracker.png"
+   src = "./with-vanilla-js/img/tablet-view-expense-tracker.png"
    alt="tablet-view-expense-tracker"
    title="Tablet View"
    style="display: flex; max-width: 70%; margin: 0 auto; border-radius: 10px">
 
 <img
-   src = "./img/mobile-screen-view-expense-tracker.png"
+   src = "./with-vanilla-js/img/mobile-screen-view-expense-tracker.png"
    alt="mobile-view-expense-tracker"
    title="Mobile View"
-   style="display: flex; max-width: 50%; margin: 0 auto; border-radius: 10px">
+   style="display: flex; max-width: 40%; margin: 0 auto; border-radius: 10px">
 
    > **When the input field pops up, type amount minimum of 1000 and click ok or enter key**
 
 <img
-   src = "./img/type-amount-expense-tracker.PNG"
+   src = "./with-vanilla-js/img/type-amount-expense-tracker.PNG"
    alt="input-amount-pop-up-expense-tracker"
    title="Input Amount Pop-up"
    style="display: flex; max-width: 70%; margin: 0 auto; border-radius: 10px">
